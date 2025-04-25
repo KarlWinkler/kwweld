@@ -32,4 +32,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          npm run ng deploy --repo "https://github.com/karlwinkler/kwweld.git" --base-href /kwweld/ --name karlwinkler --email karlw200@gmail.com
+          npm run ng deploy --repo="https://github.com/karlwinkler/kwweld.git" --base-href=/kwweld/ --name=karlwinkler --email=karlw200@gmail.com
